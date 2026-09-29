@@ -4,8 +4,6 @@ A responsive personal portfolio website built with plain **HTML** and **CSS**. I
 
 This project is my solution to the [Personal Portfolio](https://roadmap.sh/projects/portfolio-website) frontend project on roadmap.sh.
 
-**Live demo:** _add your GitHub Pages / Cloudflare Pages link here_
-
 ## Screenshots
 
 _Add desktop and mobile screenshots here_
