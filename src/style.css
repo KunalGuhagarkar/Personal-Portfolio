@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Base root font size: 1rem = 16px */
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #f5ebdd;
+}
+
+/* Navbar */
+
+header {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+#logo-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#logo-container > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+/* 20px -> 1.25rem */
+#logo-container > h1 {
+    font-size: 1.25rem;
+    align-items: center;
+    color: #f2765e;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > ul > li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #f2765e;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero-section > h1,
+#hero-section > p {
+    text-align: center;
+    color: #f2765e;
+}
+
+/* 50px -> 3.125rem */
+#hero-section > h1 {
+    font-size: 3.125rem;
+}
+
+/* Skills Section */
+#skills-section {
+    background: linear-gradient(#f5ebdd, #f2765e);
+    padding: 50px 0;
+}
+
+#skills-section h1 {
+    color: #315b8c;
+    text-align: center;
+    padding: 20px;
+}
+
+#skills-section > ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#skills-section > ul > li {
+    list-style: none;
+    color: #315b8c;
+}
+
+/* flex container */
+#flex-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    background: linear-gradient(#f2765e, #315b8c);
+    color: #f5ebdd;
+}
+
+/* Project Section */
+
+#projects-section {
+    margin: 50px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 20px -> 1.25rem */
+.project-container > h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.project-container p {
+    margin-bottom: 20px;
+}
+
+.project-container > ul > li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+/* Education section */
+#education-section {
+    margin: 50px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 20px -> 1.25rem */
+.education-container > h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.education-container p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    height: 20vh;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(#315b8c, #413333);
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    /* ONE LINE FIX: Automatically drops all typography sizes proportionally by 15% */
+    html {
+        font-size: 85%;
+    }
+
+    /* Stacks header elements on small mobile screens to prevent overlapping */
+    header {
+        flex-direction: column;
+        gap: 15px;
+        margin: 15px;
+    }
+
+    nav > ul {
+        justify-content: center;
+        gap: 5px;
+        padding: 0;
+    }
+
+    nav > ul > li {
+        padding: 0 10px;
+    }
+
+    #flex-container {
+        flex-direction: column;
+    }
+}
