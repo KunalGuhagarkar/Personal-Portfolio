@@ -80,10 +80,6 @@ The layout adapts at a breakpoint of **768px**:
 | Blue (text/accent) | `#315b8c` |
 | Dark brown (footer) | `#413333` |
 
-## Future Improvements
-- Contact form
-- Dark mode using CSS variables
-
 ## Author
 
 **Kunal Guhagarkar**
