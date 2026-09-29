@@ -81,13 +81,8 @@ The layout adapts at a breakpoint of **768px**:
 | Dark brown (footer) | `#413333` |
 
 ## Future Improvements
-
-- Working navigation links that scroll to each section
 - Contact form
 - Dark mode using CSS variables
-- Google Fonts for custom typography
-- Links to project repositories and live demos
-- Hover effects and CSS transitions
 
 ## Author
 
